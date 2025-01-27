@@ -1,7 +1,38 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
+
+.nav ul {
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #ffffff00;
+}
+
+.nav li:last-child {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    font-size: 100px;
+}
+
+.nav li a {
+    display: block;
+    color: rgb(127, 157, 229);
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #5879c15a;
+}
+
+
 
 .container {
     width: 100%;
@@ -10,10 +41,24 @@
     scroll-snap-type: y mandatory;
 }
 
+.pages {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
 .pages img {
     width: 100%;
     height: 100vh;
     display: flex;
     object-fit: cover;
-    scroll-snap-align: start;
+}
+
+.text-page {
+    background-color: black;
+}
+
+.text-page h2 {
+    color: white;
+    font-size: 100px;
 }
