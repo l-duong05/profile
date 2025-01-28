@@ -19,12 +19,12 @@
 
 .nav li a {
     display: block;
-    color: rgb(127, 157, 229);
+    color: rgb(127, 163, 229);
     text-align: center;
-    padding: 20px 20px;
+    padding: 1vw 1vw;
     text-decoration: none;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 1.5vw;
 }
 
 .nav li a:hover {
@@ -37,8 +37,8 @@
     max-height: 5vh;
     display: flex;
     position: fixed;
-    top: 20px;
-    right: 35px;
+    top: 0.75vw;
+    right: 2vw;
 }
 
 
@@ -68,5 +68,6 @@
 
 .text-page h2 {
     color: white;
-    font-size: 100px;
+    font-size: 1vw;
+    text-align: center;
 }
