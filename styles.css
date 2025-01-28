@@ -3,35 +3,43 @@
     padding: 0;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .nav ul {
     list-style-type: none;
-    padding: 20px;
     overflow: hidden;
+    display: flex;
     position: fixed;
     background-color: #ffffff00;
-}
-
-.nav li:last-child {
-    float: right;
-}
-
-.nav li {
-    float: left;
-    font-size: 100px;
 }
 
 .nav li a {
     display: block;
     color: rgb(127, 157, 229);
     text-align: center;
-    padding: 50px 50px;
+    padding: 20px 20px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 .nav li a:hover {
     background-color: #5879c15a;
+    color: rgb(233, 240, 255);
 }
 
+.home-link {
+    max-width: 5vw;
+    max-height: 5vh;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 35px;
+}
 
 
 .container {
