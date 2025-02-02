@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* navigation */
@@ -62,6 +63,40 @@ nav li a:hover {
     display: flex;
     object-fit: cover;
 }
+
+.about-page {
+    background-color: black;
+    padding: 7vw;
+    padding-right: 55vw;
+}
+
+.about-page h2 {
+    color: white;
+    font-size: 1.5vw;
+    text-align: left;
+    padding-top: 2vw;
+}
+
+.about-page p {
+    color: white;
+    line-height: 150%;
+    font-size: 1vw;
+    text-align: left;
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+
+.about-page ul {
+    color: white;
+    line-height: 150%;
+    font-size: 1vw;
+    text-align: left;
+    padding-top: 1vw;
+    padding-left: 6vw;
+}
+
+
+
 
 .text-page {
     background-color: black;
