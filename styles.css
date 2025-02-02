@@ -27,6 +27,15 @@
     z-index: -1;
 }
 
+.neon-text {
+    color: #ffffff;
+    text-shadow:
+        0 0 7px #7dd4ff,
+        0 0 21px #65c9ff,
+        0 0 102px rgb(71, 163, 255),
+        0 0 151px rgb(71, 163, 255);
+}
+
 .home-intro {
     margin-top: 25vh;
     margin-bottom: 75vh;
@@ -49,5 +58,5 @@
 }
 
 .rocket img:hover {
-    filter: brightness(0.5) sepia(1) hue-rotate(180deg);
+    filter: brightness(0.7) sepia(1) hue-rotate(180deg);
 }
