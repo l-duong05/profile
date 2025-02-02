@@ -40,9 +40,11 @@
 }
 
 .rocket img {
+    width: 3vw;
+    height: auto;
     position: absolute;
     top: 34vh;
-    right: 48.5vw;
+    right: 49.2vw;
     z-index: 1; 
 }
 
