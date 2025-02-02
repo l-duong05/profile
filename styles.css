@@ -3,50 +3,6 @@
     padding: 0;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    display: flex;
-    position: fixed;
-    background-color: #ffffff00;
-}
-
-.nav li a {
-    display: block;
-    color: rgb(127, 163, 229);
-    text-align: center;
-    padding: 1vw 1vw;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5vw;
-}
-
-.nav li a:hover {
-    background-color: #5879c15a;
-    color: rgb(233, 240, 255);
-}
-
-.home-link {
-    max-width: 5vw;
-    max-height: 5vh;
-    display: flex;
-    position: fixed;
-    top: 0.75vw;
-    right: 2vw;
-}
-
-
-
-
-
-
-
 .container {
     width: 100%;
     height: 100vh;
@@ -58,6 +14,8 @@
     width: 100%;
     height: 100vh;
     scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
 }
 
 .pages img {
@@ -65,25 +23,19 @@
     height: 100vh;
     display: flex;
     object-fit: cover;
+    position: absolute;
+    z-index: -1;
 }
-
-.text-page {
-    background-color: black;
-}
-
-.text-page h2 {
-    color: white;
-    font-size: 1vw;
-    text-align: center;
-}
-
-
-/* new styles to add to separate sheet */
 
 .home-intro {
-    display: fixed;
-    position: absolute;
-    top: 11vh;
-    left: 41vw;
+    margin-top: 25vh;
+    font-size: 5vh;
     color: rgb(143, 212, 233);
+    font-weight: bold;
+    z-index: 1; 
+    text-decoration: none;
+}
+
+.home-intro:hover {
+    color: rgb(255, 255, 255);
 }

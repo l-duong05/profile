@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    background-color: #ffffff00;
+}
+
+.nav li a {
+    display: block;
+    color: rgb(127, 163, 229);
+    text-align: center;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.nav li a:hover {
+    background-color: #5879c15a;
+    color: rgb(233, 240, 255);
+}
+
+/* earth home link */
+.home-link {
+    max-width: 5vw;
+    max-height: 5vh;
+    display: flex;
+    position: fixed;
+    top: 0.75vw;
+    right: 2vw;
+}
+
+/* general page styles for scroll animation */
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.pages {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.pages img {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    object-fit: cover;
+}
+
+.text-page {
+    background-color: black;
+}
+
+.text-page h2 {
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
+
