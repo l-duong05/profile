@@ -4,13 +4,12 @@
 }
 
 /* navigation */
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.nav ul {
+nav ul {
     list-style-type: none;
     overflow: hidden;
     display: flex;
@@ -18,17 +17,17 @@
     background-color: #ffffff00;
 }
 
-.nav li a {
+nav li a {
     display: block;
     color: rgb(127, 163, 229);
     text-align: center;
     padding: 1vw 1vw;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
 }
 
-.nav li a:hover {
+nav li a:hover {
     background-color: #5879c15a;
     color: rgb(233, 240, 255);
 }
@@ -40,7 +39,7 @@
     display: flex;
     position: fixed;
     top: 0.75vw;
-    right: 2vw;
+    right: 2.1vw;
 }
 
 /* general page styles for scroll animation */
