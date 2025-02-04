@@ -162,6 +162,14 @@ nav li a:hover {
     border-color: #FFFFFF;
 }
 
+.hobbies-page img {
+    display: block;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+
 .hobbies-page.col h2 {
     color: white;
     font-size: 4vh;
