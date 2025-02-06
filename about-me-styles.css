@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
 /* navigation */
 nav {
     display: flex;
@@ -133,7 +143,7 @@ nav li a:hover {
 .about-page.right p {
     color: white;
     line-height: 150%;
-    font-size: 2vh;
+    font-size: 1.9vh;
     text-align: center;
     padding-left: 2vw;
     padding-top: 3vh;
@@ -161,9 +171,6 @@ nav li a:hover {
     width: 48%;
     height: auto;
     float: left;
-    border-style: solid;
-    border-width: thin;
-    /* border-color: #FFFFFF; */
     overflow: hidden;
     padding-top: 2vh;
     padding-left: 5vw;
@@ -200,13 +207,23 @@ nav li a:hover {
 
 .contacts-page p {
     color: white;
-    line-height: 150%;
+    line-height: 200%;
     font-size: 2vh;
     text-align: center;
-    padding-left: 2.6vw;
-    padding-top: 1.75vh;
+    padding-top: 5vh;
 }
 
-.contacts-page img {
+.icons {
+    width: 50%;
+    margin: auto;
+    padding-top: 35vh;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.icons img {
     display: inline-block;
+    /* width: 8vw; */
+    height: 10vh;
 }
